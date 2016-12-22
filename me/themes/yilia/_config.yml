@@ -2,17 +2,17 @@
 
 menu:
   主页: /
-  随笔: /tags
-  测试页面: /testPage
+  吐槽: /tags/
+  随笔: /testPage
 
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
+  github: "https://github.com/1008611/"
+#  weibo: "#"
 #  rss: "#"
-  zhihu: "#"
-  qq: "1207430398"
+#  zhihu: "#"
+#  qq: "1207430398"
   #weixin: "#"
   #jianshu: "#"
   #douban: "#"
@@ -20,7 +20,7 @@ subnav:
   #facebook: "#"
   #google: "#"
   #twitter: "#"
-  #linkedin: "#"
+  linkedin: "http://blog.csdn.net/jujishou521"
 
 rss: /atom.xml
 
@@ -74,7 +74,8 @@ duoshuo: false
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  friends: '友链'
+#  friends: '友链'
+  friends: false
   aboutme: '关于我'
 
 

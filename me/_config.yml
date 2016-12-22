@@ -7,7 +7,7 @@ title: 学海无涯...
 subtitle: 海纳百川有容乃大
 description: 壁立千仞不欲则刚,海纳百川有容乃大
 author: 小学生
-language: zh-CN
+language: zh-cn
 timezone:
 
 # URL
@@ -34,7 +34,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -64,7 +64,9 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: landscape
-theme: yilia
+#theme: yilia
+theme: tranquilpeak
+
 
 duoshuo_shortname: wlq
 
@@ -86,6 +88,11 @@ jsonContent:
       excerpt: false
       categories: false
       tags: true
+
+feed:
+        type: atom
+        path: atom.xml
+        limit: 20
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
